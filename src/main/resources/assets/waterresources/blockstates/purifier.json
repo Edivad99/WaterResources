@@ -1,0 +1,27 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube",
+        "textures": {
+            "particle": "waterresources:blocks/purifier/face_front",
+            "up": "waterresources:blocks/purifier/face_up",
+            "down": "waterresources:blocks/purifier/face",
+            "north": "waterresources:blocks/purifier/face_front",
+            "east": "waterresources:blocks/purifier/face",
+            "south": "waterresources:blocks/purifier/face",
+            "west": "waterresources:blocks/purifier/face"
+        }
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "facing": {
+            "north": {},
+            "south": {"y":180},
+            "west": {"y":270},
+            "east": {"y":90},
+            "up": {"y":-90},
+            "down": {"y":90}
+        }
+    }
+}

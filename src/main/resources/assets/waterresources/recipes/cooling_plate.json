@@ -1,0 +1,29 @@
+{
+    "result": {
+        "item": "waterresources:cooling_plate"
+    },
+    "pattern": [
+        "cdc",
+        "cbc",
+        "aaa"
+   ],
+    "type": "forge:ore_shaped",
+    "key": {
+        "a": {
+            "item": "thermalfoundation:material",
+            "data" : 320
+        },
+        "b": {
+            "item": "thermalexpansion:frame",
+            "data" : 0
+        },
+        "c": {
+            "item": "thermalfoundation:material",
+            "data" : 128
+        },
+        "d": {
+            "item": "thermalexpansion:tank",
+            "data" : 0
+        }
+    }
+}

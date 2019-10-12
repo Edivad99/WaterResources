@@ -1,0 +1,29 @@
+{
+    "result": {
+        "item": "waterresources:industrial_distillator"
+    },
+    "pattern": [
+        "aaa",
+        "cbc",
+        " d "
+   ],
+    "type": "forge:ore_shaped",
+    "key": {
+        "a": {
+            "item": "thermalfoundation:material",
+            "data" : 320
+        },
+        "b": {
+            "item": "thermalexpansion:frame",
+            "data" : 0
+        },
+        "c": {
+            "item": "thermalexpansion:tank",
+            "data" : 0
+        },
+        "d": {
+            "item": "thermalfoundation:material",
+            "data" : 513
+        }
+    }
+}

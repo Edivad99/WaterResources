@@ -1,0 +1,69 @@
+#PARSE_ESCAPES
+
+//Items
+item.waterresources.gold_fragment.name=Gold Fragment
+item.waterresources.impure_gold_dust.name=Impure gold dust
+
+item.waterresources.gold_upgrade.name=Gold upgrade (WIP)
+item.waterresources.water_upgrade.name=Water upgrade (WIP)
+item.waterresources.speed_upgrade.name=Speed upgrade (WIP)
+item.waterresources.remove_upgrade.name=Remove upgrade (WIP)
+
+item.waterresources.distilled_water_bucket.name=Distilled Water Bucket
+item.waterresources.ice_water_bucket.name=Ice Water Bucket
+item.waterresources.auriferous_water_bucket.name=Auriferous Water Bucket
+
+
+//Blocks
+tile.waterresources.extractor.name=Extractor
+tile.waterresources.water_cooling.name=Water Cooling
+tile.waterresources.distilled_water.name=Distilled Water
+tile.waterresources.washing_machine.name=Washing Machine
+tile.waterresources.purifier.name=Purifier
+tile.waterresources.cooling_plate.name=Cooling Plate
+tile.waterresources.industrial_distillator.name=Industrial Distillator
+
+tile.waterresources.goldfield_block.name=Goldfield Ore
+tile.waterresources.ice_water.name=Ice Water
+tile.waterresources.auriferous_water.name=Auriferous Water
+
+//GUI Creative
+itemGroup.waterresourcestab=Water Resources
+
+//Fluid
+fluid.distilled_water=Distilled Water
+fluid.ice_water=Ice Water
+fluid.auriferous_water=Auriferous Water
+
+message.waterresources.hold_shift=\
+    Hold @b@oShift @7for details
+
+message.waterresources.extractor=\
+    @cEnergy: %d FE\n\
+    @aItems: %d\n\
+    @aDistilled Water: %d mB\n\
+    @aAuriferous Water: %d mB
+    
+message.waterresources.water_cooling=\
+    @cEnergy: %d FE\n\
+    @aItems: %d\n\
+    @aWater: %d mB\n\
+    @aIce Water: %d mB
+
+message.waterresources.washing_machine=\
+    @cEnergy: %d FE\n\
+    @aItems: %d\n\
+    @aDistilled Water: %d mB\n\
+    @aAuriferous Water: %d mB
+
+message.waterresources.purifier=\
+    @cEnergy: %d FE\n\
+    @aItems: %d -> %d
+    
+message.waterresources.industrial_distillator=\
+    @cEnergy: %d FE\n\
+    @aWater: %d mB\n\
+    @aDistilled Water: %d mB
+    
+message.waterresources.cooling_plate=\
+    @aIce Water: %d mB

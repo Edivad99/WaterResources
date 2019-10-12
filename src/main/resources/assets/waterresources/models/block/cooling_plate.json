@@ -1,0 +1,325 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "waterresources:blocks/cooling_plate/copper_bottom",
+    "lato": "waterresources:blocks/cooling_plate/lato",
+    "face": "waterresources:blocks/cooling_plate/face",
+    "face_water_out": "waterresources:blocks/cooling_plate/face_water_out",
+    "nero": "waterresources:blocks/cooling_plate/nero",
+    "copper_bottom": "waterresources:blocks/cooling_plate/copper_bottom"
+  },
+  "elements": [
+    {
+      "name": "Base di rame",
+      "from": [ 0.0, 0.0, 0.0 ],
+      "to": [ 16.0, 4.0, 16.0 ],
+      "faces": {
+        "north": {
+          "texture": "lato",
+          "uv": [ 0.0, 0.0, 16.0, 4.0 ]
+        },
+        "east": {
+          "texture": "lato",
+          "uv": [ 0.0, 0.0, 16.0, 4.0 ]
+        },
+        "south": {
+          "texture": "lato",
+          "uv": [ 0.0, 0.0, 16.0, 4.0 ]
+        },
+        "west": {
+          "texture": "lato",
+          "uv": [ 0.0, 0.0, 16.0, 4.0 ]
+        },
+        "up": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 16.0, 16.0 ]
+        },
+        "down": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 16.0, 16.0 ]
+        }
+      }
+    },
+    {
+      "name": "Nero",
+      "from": [ 4.0, 4.0, 0.0 ],
+      "to": [ 12.0, 12.0, 1.0 ],
+      "faces": {
+        "north": {
+          "texture": "face_water_out",
+          "uv": [ 4.0, 4.0, 12.0, 12.0 ]
+        },
+        "east": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 1.0, 8.0 ]
+        },
+        "south": {
+          "texture": "nero",
+          "uv": [ 0.0, 0.0, 8.0, 8.0 ]
+        },
+        "west": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 1.0, 8.0 ]
+        },
+        "up": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 8.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "Tubo",
+      "from": [ 5.0, 4.0, 1.0 ],
+      "to": [ 11.0, 10.0, 2.0 ],
+      "faces": {
+        "east": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 1.0, 6.0 ]
+        },
+        "south": {
+          "texture": "nero",
+          "uv": [ 0.0, 0.0, 6.0, 6.0 ]
+        },
+        "west": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 1.0, 6.0 ]
+        },
+        "up": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 6.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "Tubo",
+      "from": [ 6.0, 3.0, 2.0 ],
+      "to": [ 10.0, 8.0, 3.0 ],
+      "faces": {
+        "east": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 1.0, 5.0 ]
+        },
+        "south": {
+          "texture": "nero",
+          "uv": [ 0.0, 0.0, 4.0, 5.0 ]
+        },
+        "west": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 1.0, 5.0 ]
+        },
+        "up": {
+          "texture": "face",
+          "uv": [ 0.0, 0.0, 4.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "barra 1",
+      "from": [ 1.0, 4.0, 4.0 ],
+      "to": [ 2.0, 5.0, 14.0 ],
+      "faces": {
+        "north": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "east": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "south": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "up": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 10.0 ]
+        }
+      }
+    },
+    {
+      "name": "barra 1",
+      "from": [ 3.0, 4.0, 4.0 ],
+      "to": [ 4.0, 5.0, 14.0 ],
+      "faces": {
+        "north": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "east": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "south": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "up": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 10.0 ]
+        }
+      }
+    },
+    {
+      "name": "barra 1",
+      "from": [ 5.0, 4.0, 4.0 ],
+      "to": [ 6.0, 5.0, 14.0 ],
+      "faces": {
+        "north": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "east": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "south": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "up": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 10.0 ]
+        }
+      }
+    },
+    {
+      "name": "barra 1",
+      "from": [ 7.0, 4.0, 4.0 ],
+      "to": [ 8.0, 5.0, 14.0 ],
+      "faces": {
+        "north": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "south": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "up": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 10.0 ]
+        }
+      }
+    },
+    {
+      "name": "barra 1",
+      "from": [ 8.0, 4.0, 4.0 ],
+      "to": [ 9.0, 5.0, 14.0 ],
+      "faces": {
+        "north": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "east": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "south": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "up": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 10.0 ]
+        }
+      }
+    },
+    {
+      "name": "barra 1",
+      "from": [ 10.0, 4.0, 4.0 ],
+      "to": [ 11.0, 5.0, 14.0 ],
+      "faces": {
+        "north": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "east": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "south": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "up": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 10.0 ]
+        }
+      }
+    },
+    {
+      "name": "barra 1",
+      "from": [ 12.0, 4.0, 4.0 ],
+      "to": [ 13.0, 5.0, 14.0 ],
+      "faces": {
+        "north": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "east": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "south": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "up": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 10.0 ]
+        }
+      }
+    },
+    {
+      "name": "barra 1",
+      "from": [ 14.0, 4.0, 4.0 ],
+      "to": [ 15.0, 5.0, 14.0 ],
+      "faces": {
+        "north": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "east": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "south": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 10.0, 1.0 ]
+        },
+        "up": {
+          "texture": "copper_bottom",
+          "uv": [ 0.0, 0.0, 1.0, 10.0 ]
+        }
+      }
+    }
+  ]
+}

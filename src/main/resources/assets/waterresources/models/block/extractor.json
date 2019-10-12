@@ -1,0 +1,508 @@
+{
+   "display": {
+    "gui": {
+      "rotation": [ 30.0, 45.0, 0.0 ],
+      "translation": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 0.625, 0.625, 0.625 ]
+    },
+    "ground": {
+      "rotation": [ 0.0, 0.0, 0.0 ],
+      "translation": [ 0.0, 2.0, 0.0 ],
+      "scale": [ 0.25, 0.25, 0.25 ]
+    },
+    "fixed": {
+      "rotation": [ 0.0, 180.0, 0.0 ],
+      "translation": [ 8.0, 1.0, 0.0 ],
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0.0, 0.0, 0.0 ],
+      "translation": [ 0.0, 2.5, 0.0 ],
+      "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 0.0, 315.0, 0.0 ],
+      "translation": [ 0.0, 0.5, -8.0 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    }
+  },
+  "textures": {
+    "particle": "waterresources:blocks/extractor/tank",
+    "batteria": "waterresources:blocks/extractor/batteria",
+    "red": "waterresources:blocks/extractor/red",
+    "tank_tappo": "waterresources:blocks/extractor/tank_tappo",
+    "telaio": "waterresources:blocks/extractor/telaio",
+    "blue": "waterresources:blocks/extractor/blue",
+    "tank_top": "waterresources:blocks/extractor/tank_top",
+    "tank": "waterresources:blocks/extractor/tank",
+    "base": "waterresources:blocks/extractor/base"
+  },
+  "elements": [
+    {
+      "name": "Dietro",
+      "from": [ 0.0, 1.0, 5.0 ],
+      "to": [ 16.0, 15.0, 6.0 ],
+      "faces": {
+        "north": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 16.0, 14.0 ]
+        },
+        "east": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 1.0, 14.0 ]
+        },
+        "south": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 16.0, 14.0 ]
+        },
+        "west": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 1.0, 14.0 ]
+        },
+        "up": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 16.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "Sotto",
+      "from": [ 0.0, 0.0, 0.0 ],
+      "to": [ 16.0, 1.0, 16.0 ],
+      "faces": {
+        "north": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 16.0, 1.0 ]
+        },
+        "east": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 16.0, 1.0 ]
+        },
+        "south": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 16.0, 1.0 ]
+        },
+        "west": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 16.0, 1.0 ]
+        },
+        "up": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 16.0, 16.0 ]
+        },
+        "down": {
+          "texture": "base",
+          "uv": [ 0.0, 0.0, 16.0, 16.0 ]
+        }
+      }
+    },
+    {
+      "name": "Ugello 1",
+      "from": [ 4.0, 9.0, 3.0 ],
+      "to": [ 5.0, 10.0, 5.0 ],
+      "rotation": {
+        "origin": [ 8.0, 8.0, 8.0 ],
+        "axis": "x",
+        "angle": 45.0
+      },
+      "faces": {
+        "east": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 2.0, 1.0 ]
+        },
+        "south": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 2.0, 1.0 ]
+        },
+        "up": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 2.0 ]
+        },
+        "down": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 2.0 ]
+        }
+      }
+    },
+    {
+      "name": "tank",
+      "from": [ 0.0, 1.0, 0.0 ],
+      "to": [ 5.0, 11.0, 5.0 ],
+      "faces": {
+        "north": {
+          "texture": "tank",
+          "uv": [ 0.0, 0.0, 5.0, 10.0 ]
+        },
+        "east": {
+          "texture": "tank",
+          "uv": [ 0.0, 0.0, 5.0, 10.0 ]
+        },
+        "west": {
+          "texture": "tank",
+          "uv": [ 0.0, 0.0, 5.0, 10.0 ]
+        },
+        "up": {
+          "texture": "tank_top",
+          "uv": [ 0.0, 0.0, 5.0, 5.0 ]
+        }
+      }
+    },
+    {
+      "name": "Tank2",
+      "from": [ 11.0, 1.0, 0.0 ],
+      "to": [ 16.0, 11.0, 5.0 ],
+      "faces": {
+        "north": {
+          "texture": "tank",
+          "uv": [ 0.0, 0.0, 5.0, 10.0 ]
+        },
+        "east": {
+          "texture": "tank",
+          "uv": [ 0.0, 0.0, 5.0, 10.0 ]
+        },
+        "west": {
+          "texture": "tank",
+          "uv": [ 0.0, 0.0, 5.0, 10.0 ]
+        },
+        "up": {
+          "texture": "tank_top",
+          "uv": [ 0.0, 0.0, 5.0, 5.0 ]
+        }
+      }
+    },
+    {
+      "name": "Tappo 1",
+      "from": [ 1.0, 11.0, 1.0 ],
+      "to": [ 4.0, 12.0, 4.0 ],
+      "faces": {
+        "north": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 1.0 ]
+        },
+        "east": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 1.0 ]
+        },
+        "south": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 1.0 ]
+        },
+        "west": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 1.0 ]
+        },
+        "up": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 3.0 ]
+        }
+      }
+    },
+    {
+      "name": "Tappo 2",
+      "from": [ 12.0, 11.0, 1.0 ],
+      "to": [ 15.0, 12.0, 4.0 ],
+      "faces": {
+        "north": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 1.0 ]
+        },
+        "east": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 1.0 ]
+        },
+        "south": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 1.0 ]
+        },
+        "west": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 1.0 ]
+        },
+        "up": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 3.0, 3.0 ]
+        }
+      }
+    },
+    {
+      "name": "Ugello 2",
+      "from": [ 6.0, 9.0, 3.0 ],
+      "to": [ 7.0, 10.0, 5.0 ],
+      "rotation": {
+        "origin": [ 8.0, 8.0, 8.0 ],
+        "axis": "x",
+        "angle": 45.0
+      },
+      "faces": {
+        "east": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 2.0, 1.0 ]
+        },
+        "south": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 2.0, 1.0 ]
+        },
+        "up": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 2.0 ]
+        },
+        "down": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 2.0 ]
+        }
+      }
+    },
+    {
+      "name": "Ugello 3",
+      "from": [ 9.0, 9.0, 3.0 ],
+      "to": [ 10.0, 10.0, 5.0 ],
+      "rotation": {
+        "origin": [ 8.0, 8.0, 8.0 ],
+        "axis": "x",
+        "angle": 45.0
+      },
+      "faces": {
+        "east": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 2.0, 1.0 ]
+        },
+        "south": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 2.0, 1.0 ]
+        },
+        "up": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 2.0 ]
+        },
+        "down": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 2.0 ]
+        }
+      }
+    },
+    {
+      "name": "Ugello 4",
+      "from": [ 11.0, 9.0, 3.0 ],
+      "to": [ 12.0, 10.0, 5.0 ],
+      "rotation": {
+        "origin": [ 8.0, 8.0, 8.0 ],
+        "axis": "x",
+        "angle": 45.0
+      },
+      "faces": {
+        "east": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 2.0, 1.0 ]
+        },
+        "south": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 2.0, 1.0 ]
+        },
+        "up": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 2.0 ]
+        },
+        "down": {
+          "texture": "tank_tappo",
+          "uv": [ 0.0, 0.0, 1.0, 2.0 ]
+        }
+      }
+    },
+    {
+      "name": "Gamba 1",
+      "from": [ 0.0, 1.0, 15.0 ],
+      "to": [ 1.0, 7.0, 16.0 ],
+      "faces": {
+        "north": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 1.0, 8.0 ]
+        },
+        "east": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 1.0, 8.0 ]
+        },
+        "south": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 1.0, 8.0 ]
+        },
+        "west": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 1.0, 8.0 ]
+        },
+        "up": {
+          "texture": "telaio",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "Gamba 2",
+      "from": [ 15.0, 1.0, 15.0 ],
+      "to": [ 16.0, 7.0, 16.0 ],
+      "faces": {
+        "north": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 1.0, 8.0 ]
+        },
+        "east": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 1.0, 8.0 ]
+        },
+        "south": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 1.0, 8.0 ]
+        },
+        "west": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 1.0, 8.0 ]
+        },
+        "up": {
+          "texture": "telaio",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "Bordo",
+      "from": [ 1.0, 1.0, 15.0 ],
+      "to": [ 15.0, 6.0, 16.0 ],
+      "faces": {
+        "north": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 14.0, 7.0 ]
+        },
+        "south": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 14.0, 7.0 ]
+        },
+        "up": {
+          "texture": "telaio",
+          "uv": [ 0.0, 0.0, 14.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "Bordo 1",
+      "from": [ 0.0, 1.0, 6.0 ],
+      "to": [ 1.0, 6.0, 15.0 ],
+      "faces": {
+        "east": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 9.0, 7.0 ]
+        },
+        "west": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 9.0, 7.0 ]
+        },
+        "up": {
+          "texture": "telaio",
+          "uv": [ 0.0, 0.0, 1.0, 9.0 ]
+        }
+      }
+    },
+    {
+      "name": "Bordo 2",
+      "from": [ 15.0, 1.0, 6.0 ],
+      "to": [ 16.0, 6.0, 15.0 ],
+      "faces": {
+        "east": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 9.0, 7.0 ]
+        },
+        "west": {
+          "texture": "telaio",
+          "uv": [ 0.0, 2.0, 9.0, 7.0 ]
+        },
+        "up": {
+          "texture": "telaio",
+          "uv": [ 0.0, 0.0, 1.0, 9.0 ]
+        }
+      }
+    },
+    {
+      "name": "Batteria",
+      "from": [ 5.0, 1.0, 0.0 ],
+      "to": [ 11.0, 6.0, 5.0 ],
+      "faces": {
+        "north": {
+          "texture": "batteria",
+          "uv": [ 0.0, 0.0, 6.0, 5.0 ]
+        },
+        "up": {
+          "texture": "tank_top",
+          "uv": [ 0.0, 0.0, 6.0, 5.0 ]
+        }
+      }
+    },
+    {
+      "name": "Polo",
+      "from": [ 6.0, 6.0, 2.0 ],
+      "to": [ 7.0, 7.0, 3.0 ],
+      "faces": {
+        "north": {
+          "texture": "red",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "east": {
+          "texture": "red",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "south": {
+          "texture": "red",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "red",
+          "uv": [ 0.0, 0.0, 2.0, 1.0 ]
+        },
+        "up": {
+          "texture": "red",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "Polo 2",
+      "from": [ 9.0, 6.0, 2.0 ],
+      "to": [ 10.0, 7.0, 3.0 ],
+      "faces": {
+        "north": {
+          "texture": "blue",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "east": {
+          "texture": "blue",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "south": {
+          "texture": "blue",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        },
+        "west": {
+          "texture": "blue",
+          "uv": [ 1.0, 0.0, 8.0, 1.0 ]
+        },
+        "up": {
+          "texture": "blue",
+          "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+        }
+      }
+    }
+  ]
+}

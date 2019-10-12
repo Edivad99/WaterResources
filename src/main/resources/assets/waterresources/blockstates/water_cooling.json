@@ -1,0 +1,27 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube",
+        "textures": {
+            "particle": "waterresources:blocks/water_cooling/face_fan",
+            "up": "waterresources:blocks/water_cooling/face",
+            "down": "waterresources:blocks/water_cooling/face",
+            "north": "waterresources:blocks/water_cooling/face_fan",
+            "east": "waterresources:blocks/water_cooling/face_water_out",
+            "south": "waterresources:blocks/water_cooling/face_fan",
+            "west": "waterresources:blocks/water_cooling/face_water_in"
+        }
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "facing": {
+            "north": {},
+            "south": {"y":180},
+            "west": {"y":270},
+            "east": {"y":90},
+            "up": {"y":-90},
+            "down": {"y":90}
+        }
+    }
+}

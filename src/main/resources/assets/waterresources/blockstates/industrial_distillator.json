@@ -1,0 +1,37 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube",
+        "textures": {
+            "particle": "waterresources:blocks/industrial_distillator/face_front_behind",
+            "up": "waterresources:blocks/industrial_distillator/face",
+            "down": "waterresources:blocks/industrial_distillator/face",
+            "north": "waterresources:blocks/industrial_distillator/face_front_behind",
+            "east": "waterresources:blocks/industrial_distillator/face_water_out",
+            "south": "waterresources:blocks/industrial_distillator/face_front_behind",
+            "west": "waterresources:blocks/industrial_distillator/face_water_in"
+        }
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "facing": {
+            "north": {},
+            "south": {"y":180},
+            "west": {"y":270},
+            "east": {"y":90},
+            "up": {"y":-90},
+            "down": {"y":90}
+        },
+        "state": {
+            "off": {},
+            "working" : {},
+            "noliquid" : {
+                "textures": { 
+                    "north": "waterresources:blocks/industrial_distillator/face_not_working",
+                    "south": "waterresources:blocks/industrial_distillator/face_not_working"
+                 } 
+            }
+        }
+    }
+}

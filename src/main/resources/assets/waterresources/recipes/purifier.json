@@ -1,0 +1,28 @@
+{
+    "result": {
+        "item": "waterresources:purifier"
+    },
+    "pattern": [
+        "ccc",
+        " a ",
+        "dbd"
+   ],
+    "type": "forge:ore_shaped",
+    "key": {
+        "a": {
+            "item": "thermalexpansion:frame",
+            "data" : 0
+        },
+        "b": {
+            "item": "thermalfoundation:material",
+            "data" : 513
+        },
+        "c": {
+            "item": "thermalfoundation:material",
+            "data" : 657
+        },
+        "d": {
+            "item": "minecraft:chest"
+        }
+    }
+}

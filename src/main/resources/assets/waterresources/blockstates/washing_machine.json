@@ -1,0 +1,27 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube",
+        "textures": {
+            "particle": "waterresources:blocks/washing_machine/face_front",
+            "up": "waterresources:blocks/washing_machine/face",
+            "down": "waterresources:blocks/washing_machine/face",
+            "north": "waterresources:blocks/washing_machine/face_front",
+            "east": "waterresources:blocks/washing_machine/face_water_in",
+            "south": "waterresources:blocks/washing_machine/face",
+            "west": "waterresources:blocks/washing_machine/face_au_water_in"
+        }
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "facing": {
+            "north": {},
+            "south": {"y":180},
+            "west": {"y":270},
+            "east": {"y":90},
+            "up": {"y":-90},
+            "down": {"y":90}
+        }
+    }
+}
