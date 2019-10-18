@@ -1,4 +1,4 @@
-# WaterResources
+# Water Resources
 ## Table of Contents
 
 * [About](#about)
@@ -16,7 +16,7 @@ This mod allows you to get gold through various land treatments.
 
 ## Downloads
 
-Downloads can be found on [CurseForge]().
+Downloads can be found on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/water-resources).
 
 ## Installation
 
@@ -24,6 +24,6 @@ You install this mod by putting it into the `minecraft/mods/` folder.
 
 ## Issues
 
-WaterResources crashing, have a suggestion, found a bug?  Create an issue now!
+Water Resources crashing, have a suggestion, found a bug?  Create an issue now!
 
 Providing as many details as possible does help us to find and resolve the issue faster and also you getting a fixed version as fast as possible.
