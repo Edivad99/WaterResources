@@ -1,0 +1,69 @@
+#PARSE_ESCAPES
+
+//Items
+item.waterresources.gold_fragment.name=Fragmento de ouro
+item.waterresources.impure_gold_dust.name=Pó de ouro impuro
+
+item.waterresources.gold_upgrade.name=Upgrade de ouro (WIP)
+item.waterresources.water_upgrade.name=Upgrade de água (WIP)
+item.waterresources.speed_upgrade.name=upgrade de velocidade (WIP)
+item.waterresources.remove_upgrade.name=Remover upgrade (WIP)
+
+item.waterresources.distilled_water_bucket.name=Balde de Água Destilada
+item.waterresources.ice_water_bucket.name=Balde de Água Gelada
+item.waterresources.auriferous_water_bucket.name=Balde de Água Aurífera
+
+
+//Blocks
+tile.waterresources.extractor.name=Extrator
+tile.waterresources.water_cooling.name=Resfriador de Água
+tile.waterresources.distilled_water.name=Água Destilada
+tile.waterresources.washing_machine.name=Máquina de Lavar
+tile.waterresources.purifier.name=Purificador
+tile.waterresources.cooling_plate.name=Placa de Resfriamento
+tile.waterresources.industrial_distillator.name=Destilador Industrial
+
+tile.waterresources.goldfield_block.name=Minério de Campo de Ouro
+tile.waterresources.ice_water.name=Água Gelada
+tile.waterresources.auriferous_water.name=Água Aurífera
+
+//GUI Creative
+itemGroup.waterresourcestab=Water Resources
+
+//Fluid
+fluid.distilled_water=Água Destilada
+fluid.ice_water=Água Gelada
+fluid.auriferous_water=Água Aurífera
+
+message.waterresources.hold_shift=\
+    Segure @b@oShift @7para mais detalhes
+
+message.waterresources.extractor=\
+    @cEnergia: %d FE\n\
+    @aItens: %d\n\
+    @aÁgua Destilada: %d mB\n\
+    @aÁgua Aurífera: %d mB
+    
+message.waterresources.water_cooling=\
+    @cEnergia: %d FE\n\
+    @aItens: %d\n\
+    @aÁgua: %d mB\n\
+    @aÁgua Gelada: %d mB
+
+message.waterresources.washing_machine=\
+    @cEnergia: %d FE\n\
+    @aItens: %d\n\
+    @aÁgua Destilada: %d mB\n\
+    @aAuriferous Water: %d mB
+
+message.waterresources.purifier=\
+    @cEnergia: %d FE\n\
+    @aItens: %d -> %d
+    
+message.waterresources.industrial_distillator=\
+    @cEnergia: %d FE\n\
+    @aÁgua: %d mB\n\
+    @aÁgua Destilada: %d mB
+    
+message.waterresources.cooling_plate=\
+    @aÁgua Gelada: %d mB
